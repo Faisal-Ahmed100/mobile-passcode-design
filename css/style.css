@@ -119,15 +119,9 @@
   color: #145ba2;
   font-weight: 500;
 }
-.digit:active,
-.dig:active {
-  background-color: #e6e6e6;
+.botrow a:hover{
+    color: #10467c;  
 }
-
-#call:hover {
-  background-color: #81c784;
-}
-
 .dig {
   float: left;
   padding: 10px 20px;
