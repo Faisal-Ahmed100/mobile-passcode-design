@@ -11,7 +11,7 @@ $(".digit").on("click", function () {
     count++;
   }
 });
-
+// back space js
 $(".backspace").on("click", function () {
   if (count > 0) {
     $("#circles span.circleOutline:nth-child(" + count + ")").removeClass(
@@ -20,4 +20,3 @@ $(".backspace").on("click", function () {
     count--;
   }
 });
-
